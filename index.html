@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="main">
+
+		<div class="game_window"> 
+			<span class="timer" id="time">0:0</span>
+			<a href="#" class="play" id="play">PLAY</a>
+			<div class="wrapper">
+				<a href="#" class="easy level" id="easy" >EASY</a>
+				<a href="#" class="hard level" id="hard" >HARD</a>
+			</div>
+
+			<a href="#" class="gameOver" id="gameOver" >GAME OVER</a>
+			<a href="#" class="result" id="result">Ваше результат: 1мин 46с</a>
+			<a href="#" class="restart" id="restart">RESTART</a>
+		</div>
+
+		<div class="stats">
+
+			<div class="food stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="clean stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="happiness stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			
+		</div>
+
+		<div class="button_for_stats" id="buttons">
+			<button class="btn" data-actions="eat">eat</button>
+			<button class="btn" data-actions="wash">wash</button>
+			<button class="btn" data-actions="run">run</button>
+		</div>
+	</div>
+
+	
+
+	<script src="js/main.js"></script>
+</body>
+</html>
